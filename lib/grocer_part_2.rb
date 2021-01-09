@@ -35,6 +35,8 @@ def apply_clearance(cart)
   #takes in array
   #output = array
   # REMEMBER: This method **should** update cart
+  #applies 20% discount to items on clearance
+  
 end
 
 def checkout(cart, coupons)
