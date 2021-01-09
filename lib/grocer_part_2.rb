@@ -6,7 +6,7 @@ def apply_coupons(cart, coupons)
   # output: new array w coupon applied to item
   # REMEMBER: This method **should** update cart
    counter = 0
-   while counter < coupons.length 
+   while counter < coupons.length
      counter += 1
    end
 end
