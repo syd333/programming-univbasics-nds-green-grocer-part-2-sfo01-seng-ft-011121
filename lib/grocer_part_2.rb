@@ -36,7 +36,12 @@ def apply_clearance(cart)
   #output = array
   # REMEMBER: This method **should** update cart
   #applies 20% discount to items on clearance
-  
+  counter = 0
+  while counter < cart.length
+    if cart[counter][:clearance]
+      cart[counter][:price] = 
+    counter += 1
+  end
 end
 
 def checkout(cart, coupons)
