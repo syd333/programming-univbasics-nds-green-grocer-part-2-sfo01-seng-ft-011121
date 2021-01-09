@@ -57,5 +57,5 @@ def checkout(cart, coupons)
   # create new cosolidated cart using said method
   # BEFORE it begins the work of calculating the total (or else you might have
   # some irritated customers
-  
+  consolidated_cart = consolidate_cart(cart)
 end
