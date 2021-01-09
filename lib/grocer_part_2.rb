@@ -5,7 +5,10 @@ def apply_coupons(cart, coupons)
   #array of item Hash + array of coupon Hash
   # output: new array w coupon applied to item
   # REMEMBER: This method **should** update cart
-  
+   counter = 0
+   while counter < coupons.length 
+     counter += 1
+   end
 end
 
 def apply_clearance(cart)
