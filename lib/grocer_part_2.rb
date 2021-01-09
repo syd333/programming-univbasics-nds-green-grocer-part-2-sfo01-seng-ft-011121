@@ -48,8 +48,8 @@ end
 
 def checkout(cart, coupons)
   # Consult README for inputs and outputs
-  # takes in :
-  # output: 
+  # takes in : array of item hashses + array of coupon hashes
+  # output: float -- a total of the cart
   # This method should call
   # * consolidate_cart
   # * apply_coupons
